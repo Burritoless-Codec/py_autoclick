@@ -17,9 +17,9 @@ class ClickTheMouse(threading.Thread):
         self.buttonDirection = buttonDirection
         self.running = False
         self.program_running = True
-        print("Auto Clicker");
-        print("Press '-' to start/stop clicking");
-        print("Press '=' to exit");
+        print("Auto Clicker")
+        print("Press '-' to start/stop clicking")
+        print("Press '=' to exit")
 
     def startMouseclick(self):
         print('Clicking started...')
